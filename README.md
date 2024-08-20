@@ -3,7 +3,7 @@
 # RL-solitaire
 Solving the game of peg solitaire with a Reinforcement Learning (RL) Algorithm. 
 
-I used an adapted version of Asynchronous Advantage Actor Critic ([A3C](https://arxiv.org/pdf/1602.01783.pdf)) which I implemented from scratch myself to train an RL agent to solve the game of peg solitaire. The game consists of 32 marbles (or pegs) set out in a cross shape. There are 33 positions in the cross-shaped board, and the initial position of the game contains all 32 marbles but one is missing in the center position of the cross. The goal is to remove the marbles one by one until there is only one left. To remove a marble, another marble has to move to an empty space and pass over the marble to remove. 
+An adapted version of Asynchronous Advantage Actor Critic ([A3C](https://arxiv.org/pdf/1602.01783.pdf)) is used implemented from scratch to train an RL agent to solve the game of peg solitaire. The game consists of 32 marbles (or pegs) set out in a cross shape. There are 33 positions in the cross-shaped board, and the initial position of the game contains all 32 marbles but one is missing in the center position of the cross. The goal is to remove the marbles one by one until there is only one left. To remove a marble, another marble has to move to an empty space and pass over the marble to remove. 
 
 See the gif demo below to better understand the game : 
 
